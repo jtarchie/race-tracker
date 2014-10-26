@@ -1,5 +1,6 @@
 PODS:
   - Expecta (0.3.1)
+  - FXForms (1.2.5)
   - OCMock (3.1.1)
   - OHHTTPStubs (3.1.6):
     - OHHTTPStubs/Core
@@ -8,12 +9,14 @@ PODS:
 
 DEPENDENCIES:
   - Expecta
+  - FXForms
   - OCMock
   - OHHTTPStubs
   - Specta
 
 SPEC CHECKSUMS:
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  FXForms: e03569c84cddf4d9cb093a94969c072b798c3885
   OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
   OHHTTPStubs: 6781373b69e0a67b27239799f11764d0fbefac55
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
