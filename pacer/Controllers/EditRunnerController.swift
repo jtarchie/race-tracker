@@ -9,9 +9,10 @@
 import Foundation
 import UIKit
 
-class EditRunnersController: UIViewController {
+class EditRunnerController: FXFormViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        super.title = "Edit Runners"
+        self.title = "Edit Runners"
+        self.formController.form = RunnerForm()
     }
 }

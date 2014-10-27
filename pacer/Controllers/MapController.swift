@@ -10,7 +10,7 @@ class MapController: UIViewController {
     }
     
     func editRunnerScreen() {
-        var controller = EditRunnersController()
+        var controller = EditRunnerController()
         self.navigationController?.pushViewController(controller, animated: true)
     }
 }
