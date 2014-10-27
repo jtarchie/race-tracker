@@ -17,6 +17,7 @@
 		EF1A462019FCA6B100971012 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A461F19FCA6B100971012 /* MapView.swift */; };
 		EF45FBC519FDB13B0039850B /* EditRunnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBC419FDB13A0039850B /* EditRunnerController.swift */; };
 		EF45FBC819FDB6160039850B /* RunnerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBC719FDB6160039850B /* RunnerForm.swift */; };
+		EF45FBCD19FDE86A0039850B /* NYC-2013.csv in Resources */ = {isa = PBXBuildFile; fileRef = EF45FBCC19FDE86A0039850B /* NYC-2013.csv */; };
 		FB21ABB4378338942A8AB39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D671FDA7BCE2E6B2E9B8B32 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		EF45FBC419FDB13A0039850B /* EditRunnerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRunnerController.swift; sourceTree = "<group>"; };
 		EF45FBC719FDB6160039850B /* RunnerForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerForm.swift; sourceTree = "<group>"; };
 		EF45FBC919FDB69A0039850B /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF45FBCC19FDE86A0039850B /* NYC-2013.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NYC-2013.csv"; sourceTree = "<group>"; };
 		F43BB45DB7A0521A7314FE0F /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		182FBF4F9275B741D77E683B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF45FBCE19FDF9200039850B /* Routes */,
 				F43BB45DB7A0521A7314FE0F /* Images.xcassets */,
 				99634E39BBC0819DC0B86EDB /* Storyboards */,
 				743D674BE01E9429EE4A86F4 /* Nibs */,
@@ -241,6 +244,14 @@
 			name = Forms;
 			sourceTree = "<group>";
 		};
+		EF45FBCE19FDF9200039850B /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				EF45FBCC19FDE86A0039850B /* NYC-2013.csv */,
+			);
+			name = Routes;
+			sourceTree = "<group>";
+		};
 		F10E017DA74B092D7A24BD4F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF45FBCD19FDE86A0039850B /* NYC-2013.csv in Resources */,
 				B5D951C6A56DC805D83794DC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
