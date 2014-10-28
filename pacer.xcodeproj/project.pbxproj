@@ -13,7 +13,7 @@
 		B5D951C6A56DC805D83794DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43BB45DB7A0521A7314FE0F /* Images.xcassets */; };
 		EB6B73A91A3D9F4864F54535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B0F6EEBD4E1FC470BEFC25 /* Foundation.framework */; };
 		EF1A461C19FCA6A000971012 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A461B19FCA6A000971012 /* MapController.swift */; };
-		EF1A461E19FCA6A800971012 /* MarathonCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A461D19FCA6A800971012 /* MarathonCoordinates.swift */; };
+		EF1A461E19FCA6A800971012 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A461D19FCA6A800971012 /* Race.swift */; };
 		EF1A462019FCA6B100971012 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A461F19FCA6B100971012 /* MapView.swift */; };
 		EF45FBC519FDB13B0039850B /* EditRunnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBC419FDB13A0039850B /* EditRunnerController.swift */; };
 		EF45FBC819FDB6160039850B /* RunnerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBC719FDB6160039850B /* RunnerForm.swift */; };
@@ -23,6 +23,8 @@
 		EF45FBDA19FEAEBA0039850B /* RunnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBD919FEAEBA0039850B /* RunnerCell.swift */; };
 		EF45FBDC19FEB5C20039850B /* RunnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF45FBDB19FEB5C20039850B /* RunnerCell.xib */; };
 		EFA2AEB71A0003C3001B4F85 /* pacer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFA2AEB51A0003C3001B4F85 /* pacer.xcdatamodeld */; };
+		EFA2AEB91A004ED1001B4F85 /* Pace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA2AEB81A004ED1001B4F85 /* Pace.swift */; };
+		EFA2AEBC1A00564B001B4F85 /* CurrentRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA2AEBB1A00564B001B4F85 /* CurrentRun.swift */; };
 		FB21ABB4378338942A8AB39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D671FDA7BCE2E6B2E9B8B32 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +53,7 @@
 		A8B19DB6C15F5651F851E122 /* pacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32F0ED9E8FD49D84048F6BC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EF1A461B19FCA6A000971012 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
-		EF1A461D19FCA6A800971012 /* MarathonCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarathonCoordinates.swift; sourceTree = "<group>"; };
+		EF1A461D19FCA6A800971012 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
 		EF1A461F19FCA6B100971012 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EF45FBC419FDB13A0039850B /* EditRunnerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRunnerController.swift; sourceTree = "<group>"; };
 		EF45FBC719FDB6160039850B /* RunnerForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerForm.swift; sourceTree = "<group>"; };
@@ -62,6 +64,8 @@
 		EF45FBD919FEAEBA0039850B /* RunnerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerCell.swift; sourceTree = "<group>"; };
 		EF45FBDB19FEB5C20039850B /* RunnerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunnerCell.xib; sourceTree = "<group>"; };
 		EFA2AEB61A0003C3001B4F85 /* pacer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pacer.xcdatamodel; sourceTree = "<group>"; };
+		EFA2AEB81A004ED1001B4F85 /* Pace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pace.swift; sourceTree = "<group>"; };
+		EFA2AEBB1A00564B001B4F85 /* CurrentRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentRun.swift; sourceTree = "<group>"; };
 		F43BB45DB7A0521A7314FE0F /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +128,7 @@
 		34725BDF37348BBB32B83390 /* pacer */ = {
 			isa = PBXGroup;
 			children = (
+				EFA2AEBA1A00563B001B4F85 /* Presenters */,
 				EF45FBD419FE85210039850B /* Collections */,
 				EF45FBC919FDB69A0039850B /* Swift-Bridging-Header.h */,
 				EF45FBC619FDB6070039850B /* Forms */,
@@ -141,9 +146,10 @@
 		3B17FE3AE735A21B076D9F69 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EF1A461D19FCA6A800971012 /* MarathonCoordinates.swift */,
+				EF1A461D19FCA6A800971012 /* Race.swift */,
 				EF45FBCF19FDFE050039850B /* Runner.swift */,
 				EFA2AEB51A0003C3001B4F85 /* pacer.xcdatamodeld */,
+				EFA2AEB81A004ED1001B4F85 /* Pace.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +279,14 @@
 			children = (
 			);
 			name = Collections;
+			sourceTree = "<group>";
+		};
+		EFA2AEBA1A00563B001B4F85 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2AEBB1A00564B001B4F85 /* CurrentRun.swift */,
+			);
+			name = Presenters;
 			sourceTree = "<group>";
 		};
 		F10E017DA74B092D7A24BD4F /* Extensions */ = {
@@ -472,13 +486,15 @@
 			files = (
 				EF45FBC819FDB6160039850B /* RunnerForm.swift in Sources */,
 				EF45FBD019FDFE050039850B /* Runner.swift in Sources */,
+				EFA2AEB91A004ED1001B4F85 /* Pace.swift in Sources */,
 				EF1A461C19FCA6A000971012 /* MapController.swift in Sources */,
+				EFA2AEBC1A00564B001B4F85 /* CurrentRun.swift in Sources */,
 				EF45FBC519FDB13B0039850B /* EditRunnerController.swift in Sources */,
 				EF45FBD819FE870B0039850B /* ShowRunnersController.swift in Sources */,
 				EF1A462019FCA6B100971012 /* MapView.swift in Sources */,
 				EF45FBDA19FEAEBA0039850B /* RunnerCell.swift in Sources */,
 				FB21ABB4378338942A8AB39C /* AppDelegate.swift in Sources */,
-				EF1A461E19FCA6A800971012 /* MarathonCoordinates.swift in Sources */,
+				EF1A461E19FCA6A800971012 /* Race.swift in Sources */,
 				47B742B0BA5C3F81D6F4AFA5 /* LaunchScreen.xib in Sources */,
 				EFA2AEB71A0003C3001B4F85 /* pacer.xcdatamodeld in Sources */,
 			);

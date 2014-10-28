@@ -8,15 +8,25 @@
 
 import Foundation
 import UIKit
+import CoreLocation
 
-class ShowRunnersController: UITableViewController {
+class ShowRunnersController: UITableViewController, CLLocationManagerDelegate {
     var runners: NSArray!
+    var locationManager: CLLocationManager!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Active Runners"
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: "addRunner")
         self.tableView.registerNib(UINib(nibName: "RunnerCell", bundle: nil), forCellReuseIdentifier: "runnerCell")
+        
+        if (CLLocationManager.locationServicesEnabled()) {
+            locationManager = CLLocationManager()
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.requestAlwaysAuthorization()
+            locationManager.startUpdatingLocation()
+        }
     }
     
     override func viewWillAppear(animated: Bool) {

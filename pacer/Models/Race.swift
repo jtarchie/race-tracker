@@ -9,9 +9,9 @@
 import Foundation
 import MapKit
 
-class MarathonCoordinates {
-    init() {
-        var path = NSBundle.mainBundle().pathForResource("NYC-2013", ofType: "csv")
+class Race {
+    init(fromFile: String) {
+        var path = NSBundle.mainBundle().pathForResource(fromFile, ofType: "csv")
         var lines: [String] = String(contentsOfFile: path!, encoding: NSUTF8StringEncoding, error: nil)!.componentsSeparatedByString("\n")
         self.locations = lines.map{ (line: String) -> CLLocation in
             let coordinates: [NSString] = line.componentsSeparatedByString(",")
@@ -48,6 +48,5 @@ class MarathonCoordinates {
         return self.locations[self.locations.count - 1].coordinate
     }
     
-    var locations: [CLLocation]
-        
+    var locations: [CLLocation]   
 }

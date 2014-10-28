@@ -10,7 +10,7 @@ import Foundation
 import MapKit
 
 class MapView: MKMapView, MKMapViewDelegate {
-    var marathon: MarathonCoordinates = MarathonCoordinates()
+    var marathon: Race = Race(fromFile: "NYC-2013")
     
     override init(frame: CGRect) {
         super.init(frame: frame)
