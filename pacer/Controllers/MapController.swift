@@ -8,9 +8,4 @@ class MapController: UIViewController {
         self.view.addSubview(MapView(frame: self.view.bounds))
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Edit, target: self, action: "editRunnerScreen")
     }
-    
-    func editRunnerScreen() {
-        var controller = EditRunnerController()
-        self.navigationController?.pushViewController(controller, animated: true)
-    }
 }

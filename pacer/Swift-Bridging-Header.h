@@ -10,5 +10,6 @@
 #define pacer_Swift_Bridging_Header_h
 
 #import "FXForms.h"
+#import "ObjectiveRecord.h"
 
 #endif

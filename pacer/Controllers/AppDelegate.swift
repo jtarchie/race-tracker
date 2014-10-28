@@ -1,11 +1,13 @@
+import Foundation
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
-        var rootController = MapController()
+        var rootController = ShowRunnersController()
         
         var navigationController = UINavigationController(rootViewController: rootController)
         navigationController.toolbarHidden = false

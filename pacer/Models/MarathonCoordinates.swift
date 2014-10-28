@@ -24,7 +24,6 @@ class MarathonCoordinates {
     
     func polyline() -> MKPolyline {
         var coordinates = self.coordinates()
-        NSLog(String(coordinates.count))
         return MKPolyline(coordinates: &coordinates, count: coordinates.count)
     }
     

@@ -18,6 +18,11 @@
 		EF45FBC519FDB13B0039850B /* EditRunnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBC419FDB13A0039850B /* EditRunnerController.swift */; };
 		EF45FBC819FDB6160039850B /* RunnerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBC719FDB6160039850B /* RunnerForm.swift */; };
 		EF45FBCD19FDE86A0039850B /* NYC-2013.csv in Resources */ = {isa = PBXBuildFile; fileRef = EF45FBCC19FDE86A0039850B /* NYC-2013.csv */; };
+		EF45FBD019FDFE050039850B /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBCF19FDFE050039850B /* Runner.swift */; };
+		EF45FBD819FE870B0039850B /* ShowRunnersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBD719FE870B0039850B /* ShowRunnersController.swift */; };
+		EF45FBDA19FEAEBA0039850B /* RunnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45FBD919FEAEBA0039850B /* RunnerCell.swift */; };
+		EF45FBDC19FEB5C20039850B /* RunnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF45FBDB19FEB5C20039850B /* RunnerCell.xib */; };
+		EFA2AEB71A0003C3001B4F85 /* pacer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFA2AEB51A0003C3001B4F85 /* pacer.xcdatamodeld */; };
 		FB21ABB4378338942A8AB39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D671FDA7BCE2E6B2E9B8B32 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,11 @@
 		EF45FBC719FDB6160039850B /* RunnerForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerForm.swift; sourceTree = "<group>"; };
 		EF45FBC919FDB69A0039850B /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		EF45FBCC19FDE86A0039850B /* NYC-2013.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NYC-2013.csv"; sourceTree = "<group>"; };
+		EF45FBCF19FDFE050039850B /* Runner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		EF45FBD719FE870B0039850B /* ShowRunnersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowRunnersController.swift; sourceTree = "<group>"; };
+		EF45FBD919FEAEBA0039850B /* RunnerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerCell.swift; sourceTree = "<group>"; };
+		EF45FBDB19FEB5C20039850B /* RunnerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunnerCell.xib; sourceTree = "<group>"; };
+		EFA2AEB61A0003C3001B4F85 /* pacer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pacer.xcdatamodel; sourceTree = "<group>"; };
 		F43BB45DB7A0521A7314FE0F /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +124,7 @@
 		34725BDF37348BBB32B83390 /* pacer */ = {
 			isa = PBXGroup;
 			children = (
+				EF45FBD419FE85210039850B /* Collections */,
 				EF45FBC919FDB69A0039850B /* Swift-Bridging-Header.h */,
 				EF45FBC619FDB6070039850B /* Forms */,
 				F10E017DA74B092D7A24BD4F /* Extensions */,
@@ -131,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				EF1A461D19FCA6A800971012 /* MarathonCoordinates.swift */,
+				EF45FBCF19FDFE050039850B /* Runner.swift */,
+				EFA2AEB51A0003C3001B4F85 /* pacer.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +230,7 @@
 				EF1A461B19FCA6A000971012 /* MapController.swift */,
 				7D671FDA7BCE2E6B2E9B8B32 /* AppDelegate.swift */,
 				EF45FBC419FDB13A0039850B /* EditRunnerController.swift */,
+				EF45FBD719FE870B0039850B /* ShowRunnersController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +246,8 @@
 			isa = PBXGroup;
 			children = (
 				EF1A461F19FCA6B100971012 /* MapView.swift */,
+				EF45FBD919FEAEBA0039850B /* RunnerCell.swift */,
+				EF45FBDB19FEB5C20039850B /* RunnerCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,6 +266,13 @@
 				EF45FBCC19FDE86A0039850B /* NYC-2013.csv */,
 			);
 			name = Routes;
+			sourceTree = "<group>";
+		};
+		EF45FBD419FE85210039850B /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Collections;
 			sourceTree = "<group>";
 		};
 		F10E017DA74B092D7A24BD4F /* Extensions */ = {
@@ -351,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF45FBCD19FDE86A0039850B /* NYC-2013.csv in Resources */,
+				EF45FBDC19FEB5C20039850B /* RunnerCell.xib in Resources */,
 				B5D951C6A56DC805D83794DC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,12 +471,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF45FBC819FDB6160039850B /* RunnerForm.swift in Sources */,
+				EF45FBD019FDFE050039850B /* Runner.swift in Sources */,
 				EF1A461C19FCA6A000971012 /* MapController.swift in Sources */,
 				EF45FBC519FDB13B0039850B /* EditRunnerController.swift in Sources */,
+				EF45FBD819FE870B0039850B /* ShowRunnersController.swift in Sources */,
 				EF1A462019FCA6B100971012 /* MapView.swift in Sources */,
+				EF45FBDA19FEAEBA0039850B /* RunnerCell.swift in Sources */,
 				FB21ABB4378338942A8AB39C /* AppDelegate.swift in Sources */,
 				EF1A461E19FCA6A800971012 /* MarathonCoordinates.swift in Sources */,
 				47B742B0BA5C3F81D6F4AFA5 /* LaunchScreen.xib in Sources */,
+				EFA2AEB71A0003C3001B4F85 /* pacer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +692,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "pacer/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -698,6 +727,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFA2AEB51A0003C3001B4F85 /* pacer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFA2AEB61A0003C3001B4F85 /* pacer.xcdatamodel */,
+			);
+			currentVersion = EFA2AEB61A0003C3001B4F85 /* pacer.xcdatamodel */;
+			path = pacer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C33EEBFD963EBDFB8DD1BE96 /* Project object */;
 }
